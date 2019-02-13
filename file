@@ -1,0 +1,12 @@
+#!/bin/bash
+yum update -y
+service httpd start
+chkconfig httpd on
+
+echo "<html>
+            <body>
+                  <h1>Welcomet to AWS_DEVOPS </h1>
+    
+          </body>
+   
+   </html>"
